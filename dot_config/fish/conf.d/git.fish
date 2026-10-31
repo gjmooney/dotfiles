@@ -1,0 +1,13 @@
+abbr -a gs 'git status'
+abbr -a ga 'git add'
+abbr -a gl 'git log --oneline'
+abbr -a grl 'git reflog'
+abbr -a gr 'git restore'
+abbr -a gch 'git checkout'
+abbr -a gcp 'git checkout -'
+abbr -a gbD 'git branch -D'
+abbr -a gpum 'git pull upstream main'
+abbr -a gpom 'git push origin main'
+
+abbr -a gc --set-cursor 'git commit -m "%"'
+abbr -a gcs --set-cursor 'git commit --no-verify -m "%"'
