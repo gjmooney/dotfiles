@@ -122,7 +122,6 @@ add_if_exists "$HOME/.config/fish/conf.d/jupyter.fish"
 add_if_exists "$HOME/.config/fish/conf.d/fzf.fish"
 add_if_exists "$HOME/.config/fish/functions/port.fish"
 add_if_exists "$HOME/.config/fish/functions/grs.fish"
-add_if_exists "$HOME/.config/fish/functions/sod.fish"
 
 # general.fish as template (SSID via {{ .wifiSSID }})
 if [[ -f "$HOME/.config/fish/conf.d/general.fish" ]]; then
